@@ -41,8 +41,8 @@
 }
 
 .d3-tip {
-  padding: 6px;
-  font-size: 12px;
+  padding: 1px;
+  font-size: 8px;
   line-height: 1;
   line-height: 1.5em;
   color: #fff;
@@ -50,6 +50,13 @@
   text-transform: capitalize;
   background: rgba(0, 0, 0, 0.8);
   border-radius: 4px;
+}
+
+svg .circleText {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 9px;
+  fill: white;
+  stroke-width: 0;
 }
 
 /* Mobile Rules */
